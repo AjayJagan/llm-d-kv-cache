@@ -4,7 +4,6 @@ go 1.24.1
 
 require (
 	github.com/alicebob/miniredis/v2 v2.35.0
-	github.com/cespare/xxhash/v2 v2.3.0
 	github.com/dgraph-io/ristretto/v2 v2.3.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/fxamacker/cbor/v2 v2.7.0
@@ -28,11 +27,12 @@ require (
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
 	github.com/evanphx/json-patch/v5 v5.9.11 // indirect
-	github.com/fsnotify/fsnotify v1.7.0 // indirect
+	github.com/fsnotify/fsnotify v1.10.1 // indirect
 	github.com/go-logr/zapr v1.3.0 // indirect
 	github.com/go-openapi/jsonpointer v0.21.0 // indirect
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
